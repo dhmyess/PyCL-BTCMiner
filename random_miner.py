@@ -12,12 +12,12 @@ from rrnoncecl import mining_nonce, lev
 # CONFIG
 # -------------------------------
 config = {
-    "pool_address": "127.0.0.1",
+    "pool_address": "public-pool.io",
     "pool_port": 3333,
-    "user_name": "bc1qngzehzs73x2p5k7r7pa7na69ej89p40qxnrh60.PyCudaBTCMiner",
+    "user_name": "bc1qngzehzs73x2p5k7r7pa7na69ej89p40qxnrh60.PyCL-BTCMiner",
     "password": "x",
     "min_diff": 1,
-    "batch_number": 40,
+    "batch_number": 40, # 40 * 256 * 5120 = 52.428.800 nonce tried per extranonce2
     "poll_sleep": 0.05,
     "reconnect_backoff": 5.0,
 }
